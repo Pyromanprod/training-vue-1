@@ -3,6 +3,7 @@
     <router-link to="/">Accueil</router-link>
   </nav>
   <router-view/>
+  <HomeView></HomeView>
 </template>
 
 <style>
@@ -27,3 +28,9 @@ nav a.router-link-exact-active {
   color: #42b983;
 }
 </style>
+<script>
+import HomeView from "@/views/HomeView";
+export default {
+  components: {HomeView}
+}
+</script>

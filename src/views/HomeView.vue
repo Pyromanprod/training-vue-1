@@ -11,9 +11,11 @@ import PassInput from '@/components/pass.vue';
 
 
 export default {
+
   name: 'HomeView',
   components: {
     PassInput,
   }
+
 }
 </script>
